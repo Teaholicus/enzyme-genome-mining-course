@@ -15,6 +15,9 @@ Key results:
 - Median protein length: 409 aa
 - Long-tail distribution due to NRPS enzymes
 
+## Protein length distribution
+![Protein length distribution](results/protein_length_distribution.png)
+
 ## Next steps
 
 Secretome prediction using SignalP.
