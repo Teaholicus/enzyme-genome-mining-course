@@ -56,7 +56,7 @@ Because of this, the **slow-sequential predictions were used for downstream anal
 
 ---
 
-### Secretome Statistics
+### Secretome Statistics 
 
 The predicted secretome contains: 679 proteins (~7.4% of the proteome)
 
