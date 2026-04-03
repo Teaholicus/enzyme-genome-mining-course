@@ -16,7 +16,7 @@ Key results:
 - Long-tail distribution due to NRPS enzymes
 
 ## Protein length distribution
-![Protein length distribution](results/protein_length_distribution.png)
+![Protein length distribution](results/figures/protein_length_distribution.png)
 
 ## Module 2 – Secretome prediction
 
@@ -71,7 +71,7 @@ Length distribution:
 
 Most secreted proteins fall within the **250–600 amino acid range**, typical for fungal extracellular enzymes.
 
-![Secretome vs Proteome Length Distribution](figures/sectretome_dist.png)
+![Secretome vs Proteome Length Distribution](results/figures/sectretome_dist.png)
 
 ---
 
@@ -81,7 +81,7 @@ A scatter plot of **protein length vs signal peptide probability** reveals a cle
 
 Secreted proteins form a distinct band of high signal peptide probability.
 
-![Protein length vs signal peptide probability](figures/sp_length_scatter.png)
+![Protein length vs signal peptide probability](results/figures/sp_length_scatter.png)
 
 ---
 
