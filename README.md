@@ -1,4 +1,4 @@
-# Enzyme Genome Mining Course
+# Fungal Enzyme Genome Mining Pipeline
 
 Learning project exploring fungal proteomes and enzyme discovery pipelines.
 
@@ -382,3 +382,42 @@ The pipeline demonstrates how proteome-scale enzyme discovery can be performed u
 - quantitative secretome analysis
 
 The resulting dataset provides a foundation for identifying **candidate industrial enzymes** involved in plant biomass degradation.
+
+## Project Summary
+
+This project demonstrates the construction of a basic genome-mining pipeline for enzyme discovery in filamentous fungi.
+
+Starting from a reference fungal proteome (*Trichoderma reesei*), the workflow reconstructs the organism’s secreted enzyme repertoire through several analysis stages:
+
+1. **Proteome exploration** – working with genomic protein datasets
+2. **Secretome prediction** – identifying proteins likely to be secreted
+3. **CAZyme annotation** – detecting carbohydrate-active enzymes using HMM models
+4. **Domain architecture reconstruction** – identifying catalytic domains and accessory modules
+5. **Secretome composition analysis** – quantifying enzyme classes and families
+
+The final result is a structured catalogue of secreted CAZymes, including domain architectures and enzyme family annotations.
+
+This type of analysis forms the basis of **enzyme genome mining**, a strategy widely used in biotechnology to identify new enzymes for applications such as biomass degradation, food processing, and industrial biocatalysis.
+
+---
+
+## Key Skills Demonstrated
+
+This project demonstrates practical experience with:
+
+- Python-based bioinformatics analysis
+- Working with protein FASTA datasets
+- Secretome prediction using SignalP
+- Hidden Markov Model (HMM) annotation with HMMER
+- CAZyme annotation using the dbCAN database
+- Domain architecture reconstruction
+- Data visualization with Python (pandas, seaborn, matplotlib)
+- Reproducible bioinformatics workflows
+
+---
+
+## Limitations
+
+This project focuses on demonstrating the **analysis pipeline**, rather than discovering new enzymes.
+
+In real enzyme discovery workflows, this pipeline would typically be applied to **many genomes simultaneously**, followed by comparative analysis to identify novel enzyme candidates.
